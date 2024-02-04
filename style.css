@@ -4,15 +4,17 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Estilizado de la sección 1*/
+
 .nav {
     display: flex;
     justify-content: space-between;
-    
+    padding-top: 50px;
 }
 
 .header {
     background-color: #1F2937; 
-    padding: 0 250px;
+    padding: 0px 200px 250px 200px;
 }
 
 .derecha {
@@ -22,6 +24,7 @@ body{
 
 li {
     align-self: center;
+    font-size: 20px;
 }
 
 .izquierda, a, ul {
@@ -41,11 +44,6 @@ li {
     padding-top: 100px;
 }
 
-img {
-    display: flex;
-    align-content: flex-end;
-    width: 450px;
-}
 
 .section-1 > h1 {
     font-size: 48px;
@@ -58,14 +56,93 @@ img {
     color: #E5E7EB;
 }
 
-.boton-1 > button {
-    border: 5px solid blue;
-    background-color: blue;
+button {
+    border: 5px solid rgb(88, 88, 233);
+    background-color: rgb(88, 88, 233);
     font-weight: bold;
     padding: 8px 20px;
     color: #E5E7EB;
     border-radius: 10px;
-
+    font-size: 15px;
 }
 
 /*Estilizado de la sección 2*/
+
+.titulo {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+}
+
+.cuadro {
+    border: 1px solid black;
+    padding: 80px;
+    width: 50px;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 100px 150px 100px;
+}
+
+/*Estilizado de la tercera sección*/
+
+.section-3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 250px;
+    
+}
+
+.nombre {
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*Estilizado de la cuarta sección*/
+
+.section-4 {
+    display: flex;
+    margin: 200px;
+    justify-content: space-around;
+    background-color:rgb(123, 123, 243);
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.boton-2 {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+/*Estilizado del footer*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: #E5E7EB;
+}
