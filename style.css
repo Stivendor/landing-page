@@ -84,6 +84,8 @@ button {
     border: 1px solid black;
     padding: 80px;
     width: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .texto {
